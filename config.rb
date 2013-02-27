@@ -69,10 +69,7 @@ configure :build do
   
   # Create favicon/touch icon set from source/favicon_base.png
   activate :favicon_maker
-  
-  activate :deploy do |deploy|
-    deploy.method = :git
-  end
+
   # Enable cache buster
   # activate :cache_buster
   
@@ -86,4 +83,8 @@ configure :build do
   
   # Or use a different image path
   # set :http_path, "/Content/images/"
+end
+
+activate :deploy do |deploy|
+  deploy.method = :git
 end
