@@ -1,0 +1,31 @@
+categories:
+  - 
+    name: "Personal"
+    links:
+      - 
+        name: "Facebook"
+        url: "#"
+      -
+        name: "Spotify"
+        url: "#"
+      -
+        name: "SensCritique"
+        url: "#"
+      -
+        name: "Twitter"
+        url: "#"
+  -
+    name: "Professional"
+    links:
+      - 
+        name: "Blog"
+        url: "#"
+      -
+        name: "GitHub"
+        url: "#"
+      -
+        name: "LinkedIn"
+        url: "#"
+      -
+        name: "Twitter"
+        url: "#"
