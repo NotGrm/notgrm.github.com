@@ -4,28 +4,28 @@ categories:
     links:
       - 
         name: "Facebook"
-        url: "#"
+        url: "https://www.facebook.com/bertrandjeremy"
       -
         name: "Spotify"
-        url: "#"
+        url: "http://open.spotify.com/user/notgrm"
       -
         name: "SensCritique"
-        url: "#"
+        url: "http://www.senscritique.com/NotGrm"
       -
         name: "Twitter"
-        url: "#"
+        url: "https://twitter.com/Grm"
   -
     name: "Professional"
     links:
-      - 
-        name: "Blog"
-        url: "#"
+      # - 
+      #   name: "Blog"
+      #   url: "#"
       -
         name: "GitHub"
-        url: "#"
+        url: "https://github.com/NotGrm"
       -
         name: "LinkedIn"
-        url: "#"
+        url: "http://www.linkedin.com/in/bertrandjeremy"
       -
         name: "Twitter"
-        url: "#"
+        url: "https://twitter.com/NotGrm"
