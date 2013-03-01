@@ -17,67 +17,16 @@ description:
   %hr
   .row-fluid
     .span9
-      %p
-        %h4 You can also find me here !
-        %dl
-          - data.links.categories.each do |category|
-            %dt= category.name
-            %dd
-              %ul.inline
-                - category.links.to_a.each do |link|
-                  %li= link_to link.name, link.url, class: "btn btn-small btn-danger my-btn"
-      / %dl
-      /   %dt Professionnal
-      /   %dd
-      /     %ul.inline
-      /       %li
-      /         %a.btn.btn-small.btn-danger.my-btn{:href => "#"}
-      /           %i.icon-reorder
-      /           Blog
-      /       %li
-      /         %a.btn.btn-small.btn-danger.my-btn{:href => "#"}
-      /           %i.icon-github
-      /           GitHub
-      /       %li
-      /         %a.btn.btn-small.btn-danger.my-btn{:href => "#"}
-      /           %i.icon-linkedin
-      /           LinkedIn
-      /       %li
-      /         %a.btn.btn-small.btn-danger.my-btn{:href => "#"}
-      /           %i.icon-twitter
-      /           Twitter
-      /   %dt Personnal
-      /   %dd
-      /     %ul.inline
-      /       %li
-      /         %a.btn.btn-small.btn-danger.my-btn{:href => "#"}
-      /           %i.icon-facebook
-      /           Facebook
-      /       %li
-      /         %a.btn.btn-small.btn-danger.my-btn{:href => "#"}
-      /           %i.icon-music
-      /           Spotify
-      /       %li
-      /         %a.btn.btn-small.btn-danger.my-btn{:href => "#"}
-      /           %i.icon-book
-      /           SensCritique
-      /       %li
-      /         %a.btn.btn-small.btn-danger.my-btn{:href => "#"}
-      /           %i.icon-twitter
-      /           Twitter
-      /   %dt Projects
-      /   %dd
-      /     %ul.inline
-      /       %li
-      /         %a.btn.btn-small.btn-danger.my-btn{:href => "#"}
-      /           Panda-Gamer
-      /       %li
-      /         %a.btn.btn-small.btn-danger.my-btn{:href => "#"}
-      /           Scan Galery
+      %h3 You can also find me here !
+      - data.links.categories.each do |category|
+        %h5= category.name
+        .row-fluid
+          - category.links.to_a.each do |link|
+            .span3= link_to link.name, link.url, class: "btn btn-small btn-danger my-btn btn-block"
     .span3
       %p
-        %h4 Keywords ?
-        %ul.unstyled
+        %h3 Keywords ?
+        %ul.inline
           - data.keywords.keywords.each do |keyword|
             %li
               %span.label.my-label= keyword
